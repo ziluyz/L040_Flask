@@ -1,0 +1,53 @@
+/* style.css */
+
+/* Основные стили */
+body {
+    background-color: #000; /* Черный фон */
+    color: #fff; /* Белый текст */
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h5 {
+    color: #ffd700; /* Золотистый цвет для заголовков */
+}
+
+.card {
+    background-color: #333; /* Темно-серый фон для карточек */
+    border: 1px solid #444; /* Темно-серая рамка */
+}
+
+.card-title {
+    color: #ffd700; /* Золотистый цвет для заголовков карточек */
+}
+
+.card-text {
+    color: #bbb; /* Светло-серый цвет для текста карточек */
+}
+
+.btn-primary {
+    background-color: #ffd700; /* Золотистый цвет для кнопок */
+    border-color: #ffd700;
+}
+
+.btn-primary:hover {
+    background-color: #ffcc00; /* Светло-золотистый цвет при наведении */
+    border-color: #ffcc00;
+}
+
+.form-control {
+    background-color: #222; /* Темно-серый фон для форм */
+    color: #fff; /* Белый текст */
+    border: 1px solid #444; /* Темно-серая рамка */
+}
+
+.form-control::placeholder {
+    color: #bbb; /* Светло-серый цвет для плейсхолдера */
+}
+
+.form-label {
+    color: #ffd700; /* Золотистый цвет для меток */
+}
+
+.container {
+    margin-top: 50px;
+}
